@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ExpandListView</string>
+    <string name="title">学生管理系统</string>
+    <string name="loginactivity">登录</string>
+    <string name="mainactivity">学生列表</string>
+    <string name="addactivity">添加学生</string>
+    <string name="updateactivity">修改学生</string>
+    <string name="title_activity_welcom">WelcomActivity</string>
+
+    <string name="menu1">添加学生</string>
+    <!--添加学生界面-->
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="classNo">ClassNo</string>
+    <string name="sex">请选择性别：</string>
+    <string name="sex1">M</string>
+    <string name="sex2">W</string>
+    <string name="favorite">请选择爱好：</string>
+    <string name="favorite1">万少华</string>
+    <string name="favorite2">还是万少华</string>
+    <string name="favorite3">就是万少华</string>
+    <string name="favorite4">真的是万少华</string>
+    <string name="submit">提交</string>
+    <string name="reset">Reset</string>
+
+    <string name="update">更新</string>
+</resources>

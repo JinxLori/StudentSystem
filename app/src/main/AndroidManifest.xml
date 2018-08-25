@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wsh666.expandlistview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.wsh666.studentsystem.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.wsh666.studentsystem.activity.MainActivity" android:label="@string/mainactivity" android:launchMode="singleTask"/>
+        <activity android:name="com.example.wsh666.studentsystem.activity.LoginActivity" android:label="@string/loginactivity"/>
+        <activity android:name="com.example.wsh666.studentsystem.activity.AddStudentActivity" android:label="@string/addactivity"/>
+        <activity android:name="com.example.wsh666.studentsystem.activity.UpdateStudentActivity" android:label="@string/updateactivity"/>
+    </application>
+
+</manifest>
