@@ -54,6 +54,7 @@ public class ViewpagerActivity extends Activity {
                 Intent intent=new Intent();
                 intent.setClass(ViewpagerActivity.this, LoginActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
