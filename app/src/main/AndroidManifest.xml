@@ -15,10 +15,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.wsh666.studentsystem.activity.MainActivity" android:label="@string/mainactivity" android:launchMode="singleTask"/>
-        <activity android:name="com.example.wsh666.studentsystem.activity.LoginActivity" android:label="@string/loginactivity"/>
-        <activity android:name="com.example.wsh666.studentsystem.activity.AddStudentActivity" android:label="@string/addactivity"/>
-        <activity android:name="com.example.wsh666.studentsystem.activity.UpdateStudentActivity" android:label="@string/updateactivity"/>
+        <activity
+            android:name="com.example.wsh666.studentsystem.activity.MainActivity"
+            android:label="@string/mainactivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.wsh666.studentsystem.activity.LoginActivity"
+            android:label="@string/loginactivity" />
+        <activity
+            android:name="com.example.wsh666.studentsystem.activity.AddStudentActivity"
+            android:label="@string/addactivity" />
+        <activity
+            android:name="com.example.wsh666.studentsystem.activity.UpdateStudentActivity"
+            android:label="@string/updateactivity" />
+        <activity android:name="com.example.wsh666.studentsystem.activity.ViewpagerActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

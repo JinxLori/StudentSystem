@@ -175,6 +175,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
     /*双击退出*/
+    private long exitTime=0;
     @Override
     public boolean onKeyDown(int keyCode,KeyEvent event){
         if(keyCode==KeyEvent.KEYCODE_BACK){
@@ -185,7 +186,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void exit(){
-        long exitTime=0;
         if((System.currentTimeMillis()-exitTime)>2000) {
             Toast.makeText(getApplicationContext(),
                     "再按一次退出程序", Toast.LENGTH_SHORT).show();

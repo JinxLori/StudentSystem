@@ -80,7 +80,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 timer.cancel();
                 timer= null;
                 Intent intent = new Intent();
-                intent.setClass(WelcomeActivity.this,LoginActivity.class);
+                intent.setClass(WelcomeActivity.this,ViewpagerActivity.class);
                 startActivity(intent);
                 WelcomeActivity.this.finish();
             }
